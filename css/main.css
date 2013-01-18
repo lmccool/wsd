@@ -1,0 +1,151 @@
+/*
+green #a6e3bb
+yellow #fbb829
+grey #666666
+*/
+
+body { 
+	width: 980px;
+	background-image:url('/Users/Laura/github/local/wsd/images/bkg.png');
+	}
+
+header{
+	background-color: #ffffff; 
+	}
+	
+h1{
+	font-style:normal; 
+	font-family: 'bell mt', sans-serif; 
+	font-size: 44px;
+	color: #a6e3bb; 
+	text-align: center; 
+	text-shadow: 2px 2px 2px #000000;
+	margin: 0px;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 30px;
+	float: left;
+	}
+	
+h2 { 
+	font-style:normal; 
+	font-family: 'bell mt', sans-serif; 
+	color: #fbb829; 
+	text-align: center; 
+	text-shadow: 2px 2px 2px #666666;
+	margin: 0px;
+	clear: both;
+	}
+
+h3 {
+	font-style:normal; 
+	font-family: 'bell mt', sans-serif; 
+	color: #a6e3bb; 
+	text-align: center; 
+	text-shadow: 2px 2px 2px #000000;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	clear: both;
+	}
+nav {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 18px; 
+	text-align: center;
+
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	float: right;
+	}
+	
+.navigation{
+    list-style-type: none;
+	}
+	
+p {
+	margin: 5px;
+	padding-top: 10px;
+}
+	
+a:link { 
+	color: #666666;
+	}
+	
+a:hover { 
+	color: #fbb829;
+	}
+
+.image { 
+	float: left;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 10px;
+	}	
+	
+.ingredients {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 14px; 
+	line-height: 19px; 
+	color: #666666; 
+	background-color: #ffffff; 
+	padding-left: 30px; 
+	padding-right: 30px; 
+	padding-bottom: 5px; 
+	padding-top: 5px; 
+	border-style: dashed; 
+	border-color: #666666; 
+	border-width: 1px;
+	list-style-type: circle;
+	clear:both;
+	}
+	
+.directions {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 14px; color: #666666; 
+	background-color: #ffffff; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	border-style: dashed; 
+	border-color: #666666; 
+	border-width: 1px;
+	}
+		
+.disclaimer {
+	font-family: 'Montserrat', sans-serif; 
+	font-size:12px; 
+	text-align: center; 
+	color: #fbb829; 
+	background-color: #ffffff; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	}		 
+
+
+.imageBanner {
+	float:left;
+	width: 176px;
+	margin:10px;
+	}
+		
+footer { 
+	font-variant:small-caps; 
+	font-family: 'Montserrat', sans-serif; 
+	text-align: center; font-size:10px; 
+	background-color: #ffffff; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	-moz-column-count: 3;
+	clear: both;
+	}
+	
