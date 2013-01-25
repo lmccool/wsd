@@ -5,9 +5,22 @@ grey #666666
 */
 
 body { 
-	width: 980px;
+	max-width: 980px;
 	background-image:url('/Users/Laura/github/local/wsd/images/bkg.png');
+    font-family: 'bell mt', sans-serif; 
+    font-size: 100%;
+    margin: 25px auto;
 	}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #ffffff;
+	border-style: dashed; 
+	border-color: #666666; 
+	border-width: 1px;
+}
 
 header{
 	background-color: #ffffff; 
@@ -16,15 +29,16 @@ header{
 h1{
 	font-style:normal; 
 	font-family: 'bell mt', sans-serif; 
-	font-size: 44px;
+	font-size: 2.75em; /*44px*/
 	color: #a6e3bb; 
 	text-align: center; 
 	text-shadow: 2px 2px 2px #000000;
-	margin: 0px;
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 30px;
+	margin: 0%;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%;  
+	padding-bottom: 1%;  
+	padding-top: 3.061224489% /*30px*/
+	background: #ffffff;
 	float: left;
 	}
 	
@@ -34,8 +48,16 @@ h2 {
 	color: #fbb829; 
 	text-align: center; 
 	text-shadow: 2px 2px 2px #666666;
-	margin: 0px;
+	margin: 0%;
 	clear: both;
+	background: #ffffff;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
 	}
 
 h3 {
@@ -44,21 +66,29 @@ h3 {
 	color: #a6e3bb; 
 	text-align: center; 
 	text-shadow: 2px 2px 2px #000000;
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 5px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%;  
 	clear: both;
+	background: #ffffff;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
 	}
+
 nav {
 	font-family: 'Montserrat', sans-serif; 
-	font-size: 18px; 
+	font-size: 1.125em; /*18px*/ 
 	text-align: center;
-
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 5px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
 	float: right;
 	}
 	
@@ -67,8 +97,8 @@ nav {
 	}
 	
 p {
-	margin: 5px;
-	padding-top: 10px;
+	margin: 1.0204082%;
+	padding-top: 1.0204082%; /*10px*/
 }
 	
 a:link { 
@@ -81,71 +111,79 @@ a:hover {
 
 .image { 
 	float: left;
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 10px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1.0204082%; 
 	}	
 	
 .ingredients {
 	font-family: 'Montserrat', sans-serif; 
-	font-size: 14px; 
+	font-size: .875em; /*14px*/
 	line-height: 19px; 
 	color: #666666; 
 	background-color: #ffffff; 
-	padding-left: 30px; 
-	padding-right: 30px; 
-	padding-bottom: 5px; 
-	padding-top: 5px; 
-	border-style: dashed; 
-	border-color: #666666; 
-	border-width: 1px;
+	padding-left: 3.06%; 
+	padding-right: 3.06%;
+	padding-bottom: 1%; 
+	padding-top: 1%; 
 	list-style-type: circle;
 	clear:both;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666;
 	}
 	
 .directions {
 	font-family: 'Montserrat', sans-serif; 
-	font-size: 14px; color: #666666; 
+	font-size: .875em;  
+	color: #666666; 
 	background-color: #ffffff; 
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 5px;
-	border-style: dashed; 
-	border-color: #666666; 
-	border-width: 1px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
+	border: #666666;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666;
 	}
 		
 .disclaimer {
 	font-family: 'Montserrat', sans-serif; 
-	font-size:12px; 
+	font-size:.75em; /*12px*/ 
 	text-align: center; 
 	color: #fbb829; 
 	background-color: #ffffff; 
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 5px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666; 
 	}		 
-
 
 .imageBanner {
 	float:left;
-	width: 176px;
-	margin:10px;
+	width: 17.959184%;
+	margin: 1.0204082%;
 	}
 		
 footer { 
 	font-variant:small-caps; 
 	font-family: 'Montserrat', sans-serif; 
-	text-align: center; font-size:10px; 
+	text-align: center; 
+	font-size:.625em; /*10px*/
 	background-color: #ffffff; 
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-bottom: 5px; 
-	padding-top: 5px;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
 	-moz-column-count: 3;
 	clear: both;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #666666;
 	}
 	
