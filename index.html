@@ -63,8 +63,9 @@
         </article>
         
         <p class="disclaimer">Recipe tweaked by Laura McCool from <a href= "http://craftingandcooking.wordpress.com">Craft and Cooking Blog</a></p>
-
+        
     </section>
+  		<section>
   		<div id="photos">
         <img class="imageBanner" id="image1" src="images/cooking1.jpg">
         <img class="imageBanner" id="image2" src="images/cooking2.jpg">
@@ -72,6 +73,65 @@
         <img class="imageBanner" id="image4" src="images/cooking4.jpg">
         <img class="imageBanner" id="image4" src="images/cooking5.jpg">
         </div>
+		</section>
+<div id="formContainer">
+<form id="form" method="post"/>
+	<fieldset id="fieldset">
+		<legend id="legend">Submit a Recipe:</legend>
+		<div>
+			<label for="firstName">First Name:</label>
+		</div>
+		<div>
+			<input name="firstName" id="firstName" type="text">
+		</div>
+		<div>
+			<label for="lastName">Last Name:</label>
+		</div>
+		<div>
+			<input name="lastName" id="lastName" type="text">
+		</div>
+		<div>
+			<label for="fm-email">Email:</label>
+		</div>
+		<div>
+		<input id="email" name="email" type="text">
+		</div>
+			
+		<div>
+			<label for="recipeType">Recipe Type:</label> <!-- My mobile media experience helped me with this next part -->
+		</div>
+		<div>
+			<select id="recipeType" name="recipeType">
+				<option value="" selected="selected">Choose a Recipe Type</option>
+				<option value="appetizer">Appetizer</option>
+				<option value="breakfast">Breakfast</option>
+				<option value="lunch">Lunch</option>
+				<option value="dinner">Dinner</option>
+				<option value="dessert">Dessert</option>
+				<option value="drinks">Drinks/Cocktails</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		<div>
+			<label for="recipe">Recipe:</label>	
+			</div>
+			<div>
+			<textarea name="recipe" cols="25" rows="5" id="recipe"></textarea>
+			</div>
+	
+		<div>
+		<button type="submit">Submit Recipe</button>
+		</div>
+	</form>
+ </div>  
+ 
+ <table class="table" cellpadding="1" cellspacing="0" border="1">
+		<tr><th>Name</th><th>E-mail</th></tr>
+	<tr><td>Laura M.</td><td>laura@email.com</td></tr>
+	<tr><td>Allison K.</td><td>allison@email.com</td></tr>
+	<tr><td>Kristin H.</td><td>kristin@email.com</td></tr>
+ </table>
+
     <footer>
         <p>All recipes on this site are free to use and share. All recipes are a creation of Laura McCool or modified from other cooking blogs and will be linked if done so.</p>
         <p> I do not take credit for all these recipes. All modified recipes have been modified with permission from the original site.</p>

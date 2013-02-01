@@ -168,6 +168,52 @@ a:hover {
 	width: 17.959184%;
 	margin: 1.0204082%;
 	}
+
+/* TABLE*/	
+
+table.tftable {}
+table.tftable th {font-size:12px;background-color:#b8b8b8;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+table.tftable tr {background-color:#cdcdcd;}
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;}
+
+
+
+
+.table {
+	font-family: 'bell mt', sans-serif; 
+	font-size: 100%;
+	color:#666666;
+	width:900px;
+	border-width: 1px;
+	border-color: #ffffff;
+	border-collapse: collapse;
+	margin-bottom: 1%;
+	}
+
+.table th {
+	font-size: 1.2em;
+	background-color:#b8b8b8;
+	border-width: 1px;
+	padding: 1.0204082%;
+	border-style: solid;
+	border-color: #a9a9a9;
+	}
+	
+.table tr {
+	background-color:#cdcdcd;
+	padding: 1.0204082%;
+	text-align: center;
+	}
+	
+table. td {
+	font-size:12px;
+	border-width: 1px;
+	padding: 1.0204082%;
+	border-style: solid;
+	border-color: #a9a9a9; 
+	}
+
+/* TABLE END*/
 		
 footer { 
 	font-variant:small-caps; 
@@ -186,6 +232,59 @@ footer {
 	border-color: #666666;
 	}
 
+
+/* FORM */
+
+input:focus{
+	background-color: #a6e3bb;		
+	}
+	
+#form{
+	font-family: 'bell mt', sans-serif; 
+    font-size: 100%;
+    width: auto%;
+    margin: auto;
+    margin-bottom: 1%;
+	color: white;
+	background-color: #666666;
+	padding-left: 1.0204082%; /*10px*/
+	padding-right: 1.0204082%; 
+	padding-bottom: 1%; 
+	padding-top: 1%; 
+	clear: both;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: #ffffff;
+	} 
+
+ #fieldset{
+		border: none;
+		}
+  #legend{
+  		font-size: 1.6em;
+        }			
+  .input, .textarea{		
+		width:1.5em;
+		border:1px solid #fbb829;
+		background:#fff;
+		padding:1.0204082%;
+		}		
+  .textarea{
+		height:1.6em;
+		width: auto;
+		overflow:auto;
+		}					
+  .button{
+		margin:0;
+		padding:0;
+		text-indent:-8000px;
+		overflow:hidden;
+		width:88px;
+		height:56px;
+		border:none;
+		background-color: #fbb829;
+		text-align:left;
+		}				
 /* MEDIA QUERIES*/	
   
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -209,7 +308,9 @@ footer {
    nav {float: none; font-size: 1em; text-align: center; padding-top: 1%; word-spacing: 10px; }
    h1 {float: none; font-size: 2em;}
    .disclaimer {font-size:.9em;}
-   footer {font-size:.425em;}
+   footer {font-size:.425em; -moz-columns: 2;}
+    #legend{font-size: 1.3em;}
+    #form{font-size: 80%;}	
    }
    
  @media only screen and (max-width: 319px) {
@@ -223,5 +324,7 @@ footer {
    nav {float: none; font-size: 1em; text-align: center; padding-top: 1%; word-spacing: 10px;}
    h1 {float: none; font-size: 2em; color: #fbb829;}
    .disclaimer {font-size:1em;}
-   footer {font-size:.4em;}
+   footer {font-size:.4em; -moz-columns: none;}
+    #legend{font-size: 1.3em;}
+    #form{font-size: 80%;}
  }
